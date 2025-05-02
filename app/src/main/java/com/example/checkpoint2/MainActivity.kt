@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val toolbarMain:Toolbar =findViewById(R.id.toolbar_main)
         configureToolbar(toolbarMain)
 
-        val btnRefreshButton: Button = findViewById(R.id.btn_refresh)
+        val btnRefreshButton: Button = findViewById( R.id.btn_refresh)
         btnRefreshButton.setOnClickListener {
             makeCallRequest()
         }
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     private fun configureToolbar(toolbar: Toolbar) {
         setSupportActionBar(toolbar)
         toolbar.setTitleTextColor(getColor(R.color.white))
-        supportActionBar?.setTitle(getText(R.string.app_title))
+        supportActionBar?.setTitle(getText( R.string.app_title))
         supportActionBar?.setBackgroundDrawable(getDrawable(R.color.primary))
     }
 
