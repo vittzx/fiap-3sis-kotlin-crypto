@@ -1,4 +1,4 @@
-# Checkpoint 2 - Android Kotlin Development
+# Checkpoint - Android Kotlin Development
 
 Explicando o código feito em aula pelo professor Ewerton Carreira pela turma 3SIS-fiap 2025.
 
