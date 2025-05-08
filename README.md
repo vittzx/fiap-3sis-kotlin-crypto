@@ -49,6 +49,9 @@ Direitos Autorais do README de Vitor Cosso - RM 98231
 
 - Seguindo o Design Pattern Factory de criação de objetos e classes dinamicamente,a classe `MercadoBitcoinServiceFactory` é responsável por criar e configurar uma instância do serviço Retrofit para se comunicar com a API do Mercado Bitcoin. Ela define a URL base da API e registra o conversor Gson para transformar JSON em objetos Kotlin automaticamente. O método create() retorna uma implementação da interface MercadoBitcoinService pronta para uso em chamadas HTTP
 
+## Tela
+
+![image](https://github.com/user-attachments/assets/1f6eb5dc-1b0f-4066-80fb-ed55b5c43e7f)
 
 
 Direitos Autorais do README de Vitor Cosso - RM 98231
